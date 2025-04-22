@@ -1,0 +1,7 @@
+.kw-tag {
+  padding: 2px 10px;
+  border-radius: 15px;
+  background-color: transparent;
+  border: 1px solid rgba(168, 173, 195, 0.5);
+  color: var(--light-grey);
+}

@@ -1,0 +1,20 @@
+.news-card {
+  background: linear-gradient(45deg, rgb(41, 41, 80), rgb(14, 14, 14));
+  max-width: 954px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.btn-source {
+  padding: 9px 12px;
+  border-radius: 10px;
+  background-color: #312f3c;
+  color: var(--blue);
+}
+
+.news-card_border {
+  display: inline-block;
+  padding: 15px;
+  border: 1px solid rgba(168, 173, 195, 0.5);
+  border-radius: 5px;
+}

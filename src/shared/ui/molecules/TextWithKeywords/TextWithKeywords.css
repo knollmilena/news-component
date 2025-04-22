@@ -1,0 +1,34 @@
+.text-with-keywords {
+  color: #fff;
+}
+
+.text-content {
+  line-height: 26px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.text-content.collapsed {
+  text-overflow: ellipsis;
+}
+
+.keyword {
+  background-color: var(--blue);
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+
+.toggle-btn {
+  display: block;
+  padding: 0;
+  height: 25px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: var(--blue) !important;
+  text-decoration: none;
+}
+
+.toggle-btn:hover {
+  color: #1380d4;
+}
