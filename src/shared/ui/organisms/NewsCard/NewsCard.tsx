@@ -10,16 +10,7 @@ export const NewsCard = ({ news }: INewsCardProps) => {
   return (
     <Card className="news-card" hoverable>
       <div className="news-card_border">
-        <NewsHeader
-          date={news.DP}
-          reach={news.REACH}
-          traffic={news.TRAFFIC}
-          authors={news.AU}
-          source={news.URL}
-          country={news.CNTR}
-          language={news.LANG}
-          title={news.TI}
-        />
+        <NewsHeader news={news} />
         <TextWithKeywords data={news} />
 
         <Keywords keywords={news.KW} />

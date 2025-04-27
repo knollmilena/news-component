@@ -26,22 +26,3 @@ export interface IData_TrafficItem {
   value: string; // название страны-источника трафика
   count: number; // объём трафика для указанной страны
 }
-
-export interface NewsItem {
-  id: string;
-  title: string;
-  content: string;
-  highlights?: string[];
-  keywords: IData_TagItem[];
-  url: string;
-  date: string;
-  reach: string;
-  traffic: IData_TrafficItem[];
-  authors: string[];
-  source: {
-    name: string;
-    icon?: string;
-  };
-  country: string;
-  language: string;
-}
