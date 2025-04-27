@@ -1,0 +1,6 @@
+.card-actions {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  height: 24px;
+}

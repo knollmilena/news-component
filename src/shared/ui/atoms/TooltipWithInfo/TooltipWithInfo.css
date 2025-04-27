@@ -1,0 +1,19 @@
+.tooltip-info {
+  padding: 0;
+  height: 17px;
+  font-size: 10px;
+}
+
+.tooltip-info__icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 13px;
+  height: 13px;
+  border: 2px solid var(--light-grey);
+}
+
+.tooltip-info__icon {
+  color: var(--light-grey);
+  transform: scale(1.2);
+}

@@ -1,0 +1,23 @@
+/* Ядерное переопределение */
+.status-tag-override .status-tag-force {
+  font-family: inherit;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0 6px;
+  font-size: 10px;
+  line-height: 1;
+  height: 18px;
+  border-radius: 2px;
+  background: var(--aqua-mint);
+  color: black;
+}
+.status-tag-override {
+  line-height: 0;
+}
+
+/* Для negative состояния */
+.status-tag-override .status-tag-force.ant-tag-has-color {
+  background: var(--aqua-mint);
+}
